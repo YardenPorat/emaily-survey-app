@@ -25,11 +25,12 @@ passport.use(
             proxy: true,
         },
         async (accessToken, refreshToken, profile, done) => {
+            //searching id in the DB
             const existingUser = await User.findOne({ googleId: profile.id });
 
             if (existingUser) {
                 //already have a record with a profile ID
-                done(null, existingUser);
+                return done(null, existingUser);
             }
 
             //id not found, make a new record (model instance)
