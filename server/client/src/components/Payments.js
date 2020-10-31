@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { handleToken } from '../actions';
 
 const Payments = ({ handleToken }) => {
+    console.log(process.env.REACT_APP_STRIPE_KEY);
     return (
         <StripeCheckout
             amount={500}
