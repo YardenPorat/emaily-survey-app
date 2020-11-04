@@ -35,7 +35,11 @@ const Header = ({ auth }) => {
     return (
         <nav>
             <div className='nav-wrapper'>
-                <Link to={auth ? '/surveys' : '/'} className='left brand-logo'>
+                <Link
+                    to={auth ? '/surveys' : '/'}
+                    className='left brand-logo'
+                    style={{ padding: '0 15px' }}
+                >
                     Emaily
                 </Link>
                 <ul id='nav-mobile' className='right'>

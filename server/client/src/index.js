@@ -7,6 +7,10 @@ import { createStore, applyMiddleware } from 'redux';
 import reducers from './reducers';
 import 'materialize-css/dist/css/materialize.min.css';
 
+//DEV only axios helpers
+import axios from 'axios';
+window.axios = axios;
+
 //redux
 const initialState = {};
 const middleware = [thunk];
