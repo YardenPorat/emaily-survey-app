@@ -1,6 +1,6 @@
 import { FETCH_SURVEYS } from '../actions/types';
 
-export default function (state = [], action) {
+const surveysReducer = (state = [], action) => {
     switch (action.type) {
         case FETCH_SURVEYS:
             return action.payload;
@@ -8,4 +8,6 @@ export default function (state = [], action) {
         default:
             return state;
     }
-}
+};
+
+export default surveysReducer;

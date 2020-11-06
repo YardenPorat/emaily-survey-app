@@ -10,7 +10,10 @@ require('./models/User'); //should be before passport since passport is using th
 require('./models/Survey');
 require('./services/passport');
 
-mongoose.connect(keys.mongoURI);
+mongoose.connect(keys.mongoURI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+});
 
 const app = express();
 
@@ -40,4 +43,4 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 const PORT = process.env.PORT || 5000; // Dynamic Port Binding
-app.listen(PORT, () => console.log(`Server start on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

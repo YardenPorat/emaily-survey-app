@@ -7,7 +7,7 @@ import { withRouter } from 'react-router-dom';
 const SurveyFormReview = ({ onCancel, formValues, submitSurvey, history }) => {
     const renderComponent = formFields.map(({ label, name }) => {
         return (
-            <div key={name}>
+            <div key={name} style={{ margin: '15px', fontSize: '20px' }}>
                 <label>{label}</label>
                 <div>{formValues[name]}</div>
             </div>
@@ -17,12 +17,12 @@ const SurveyFormReview = ({ onCancel, formValues, submitSurvey, history }) => {
     return (
         <div>
             <h5>Please confirm your entries</h5>
-            <div>{renderComponent}</div>
+            <div style={{ padding: '10px 0' }}> {renderComponent}</div>
             <button
-                className='yellow white-text darken-3 btn-flat'
+                className='amber darken-3 white-text  btn-flat'
                 onClick={onCancel}
             >
-                Back
+                Go Back
             </button>
             <button
                 className='green btn-flat white-text right'

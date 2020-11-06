@@ -12,7 +12,9 @@ const Payments = ({ handleToken }) => {
             name='Emaily'
             description='5$ for 5 email credit'
         >
-            <button className='btn'>Add Credits</button>
+            <button className='btn waves-effect waves-light indigo darken-1'>
+                Add Credits
+            </button>
         </StripeCheckout>
     );
 };

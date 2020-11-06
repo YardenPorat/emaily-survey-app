@@ -17,7 +17,11 @@ export const SurveyNew = () => {
         return <SurveyForm onSurveySubmit={() => setShowFormReview(true)} />;
     };
 
-    return <div>{renderContent()}</div>;
+    return (
+        <div style={{ padding: '30px', backgroundColor: 'white' }}>
+            {renderContent()}
+        </div>
+    );
 };
 
 export default reduxForm({

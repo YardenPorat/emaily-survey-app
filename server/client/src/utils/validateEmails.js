@@ -1,7 +1,7 @@
 const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-export default emails => {
-    if (emails.slice(-1) == ',') {
+const ValidateEmails = emails => {
+    if (emails.slice(-1) === ',') {
         emails = emails.slice(0, -1); //ignore last comma
     }
     const invalidEmails = emails
@@ -15,3 +15,5 @@ export default emails => {
 
     return;
 };
+
+export default ValidateEmails;

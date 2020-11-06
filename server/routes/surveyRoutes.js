@@ -6,6 +6,7 @@ const requireCredits = require('../middleware/requireCredits');
 const Mailer = require('../services/Mailer');
 const surveyTemplate = require('../services/emailTemplates/surveyTemplate');
 const mongoose = require('mongoose');
+const keys = require('../config/keys');
 
 const Survey = mongoose.model('surveys');
 
@@ -19,8 +20,28 @@ module.exports = app => {
     });
 
     app.get('/api/surveys/:surveyId/:choice', (req, res) => {
-        res.send('Thanks for voting');
-        //not working yet
+        console.log('api/surveys/:surveyId/:choice');
+        res.redirect(`${redirectDomain}/thankyou`);
+    });
+
+    app.post('/api/surveys/delete', requireLogin, async (req, res) => {
+        const { id } = req.body;
+        console.log('api/surveys/delete:', 'survey:', id);
+
+        try {
+            await Survey.findOneAndDelete({
+                _id: id,
+                _user: req.user.id,
+            });
+            const surveys = await Survey.find({ _user: req.user.id }).select({
+                recipients: false,
+            });
+
+            res.send(surveys);
+        } catch (err) {
+            console.log(err);
+            res.status(403).send('OK');
+        }
     });
 
     app.post('/api/surveys/webhooks', (req, res) => {

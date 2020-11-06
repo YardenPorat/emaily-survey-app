@@ -32,11 +32,12 @@ export const SurveyForm = ({ handleSubmit, onSurveySubmit }) => {
                 </Link>
                 <button
                     type='submit'
-                    className='teal btn-flat right white-text'
+                    className='btn-flat right white-text indigo darken-1'
                 >
                     Next
                     <i className='material-icons right'>done</i>
                 </button>
+                <div></div>
             </form>
         </div>
     );
