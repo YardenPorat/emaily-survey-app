@@ -19,20 +19,23 @@
 
 Emaily is a platform for sending surveys in bulk emails, to gather client feedback.
 
-<p align="center">
+<h2 align="center">
   <a href="https://emailysurveyapp.herokuapp.com/">Emaily - Live App on Heroku</a>
-</p>
+</h2>
+
+<br>
+
 ## 🚀 Tech Stack
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-| Back End | Front End | API's|
-| ------------- | ------------- |------------- |
-| [Node.js](https://nodejs.org/en/) | [React.js](https://reactjs.org) | [Stripe](https://stripe.com/) |
-| [Express.js](https://expressjs.com/) | [Redux](https://redux.js.org/) |[SendGrid](https://sendgrid.com/)|
-| [PassportJS](http://www.passportjs.org/) | [Redux Form](https://redux-form.com/)| [Google OAuth 2.0](https://developers.google.com/identity/protocols/oauth2)|
-| [MongoDB](https://www.mongodb.com/)| [Redux Thunk](https://github-images.com/reduxjs/redux-thunk)|
-|[Mongoose](https://mongoosejs.com/)||
+| Back End                                 | Front End                                                    | API's                                                                       |
+| ---------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| [Node.js](https://nodejs.org/en/)        | [React.js](https://reactjs.org)                              | [Stripe](https://stripe.com/)                                               |
+| [Express.js](https://expressjs.com/)     | [Redux](https://redux.js.org/)                               | [SendGrid](https://sendgrid.com/)                                           |
+| [PassportJS](http://www.passportjs.org/) | [Redux Form](https://redux-form.com/)                        | [Google OAuth 2.0](https://developers.google.com/identity/protocols/oauth2) |
+| [MongoDB](https://www.mongodb.com/)      | [Redux Thunk](https://github-images.com/reduxjs/redux-thunk) |
+| [Mongoose](https://mongoosejs.com/)      |                                                              |
 
+<br>
 <p align="center">
   <img alt="Emaily" src=".github-images/1.jpg" width="100%">
   <img alt="Emaily" src=".github-images/2.jpg" width="100%">  
