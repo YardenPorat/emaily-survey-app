@@ -19,39 +19,25 @@
 
 Emaily is a platform for sending surveys in bulk emails, to gather client feedback.
 
-<a href="https://emailysurveyapp.herokuapp.com/">Emaily - Live App on Heroku</a>
-
+<p align="center">
+  <a href="https://emailysurveyapp.herokuapp.com/">Emaily - Live App on Heroku</a>
+</p>
 ## 🚀 Tech Stack
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
-| Back End | Front End |
-| ------------- | ------------- |
-| [Node.js](https://nodejs.org/en/) | [React.js](https://reactjs.org) |
-| [Express.js](https://expressjs.com/) | Content Cell |
-
--
--
--
--   [Redux](https://redux.js.org/)
--   [Redux Form](https://redux-form.com/)
--   [Redux Thunk](https://github-images.com/reduxjs/redux-thunk)
--   [Stripe](https://stripe.com/)
--   [SendGrid](https://sendgrid.com/)
--   [Heroku](https://www.heroku.com/)
--   [PassportJS](http://www.passportjs.org/)
+| Back End | Front End | API's|
+| ------------- | ------------- |------------- |
+| [Node.js](https://nodejs.org/en/) | [React.js](https://reactjs.org) | [Stripe](https://stripe.com/) |
+| [Express.js](https://expressjs.com/) | [Redux](https://redux.js.org/) |[SendGrid](https://sendgrid.com/)|
+| [PassportJS](http://www.passportjs.org/) | [Redux Form](https://redux-form.com/)| [Google OAuth 2.0](https://developers.google.com/identity/protocols/oauth2)|
+| [MongoDB](https://www.mongodb.com/)| [Redux Thunk](https://github-images.com/reduxjs/redux-thunk)|
+|[Mongoose](https://mongoosejs.com/)||
 
 <p align="center">
-  <img alt="Emaily" src=".github-images/emaily01.png" width="100%">
-  <img alt="Emaily" src=".github-images/emaily02.png" width="100%">  
-  <img alt="Emaily" src=".github-images/emaily03.png" width="100%">  
-  <img alt="Emaily" src=".github-images/emaily04.png" width="100%">  
-  <img alt="Emaily" src=".github-images/emaily05.png" width="100%">  
-  <img alt="Emaily" src=".github-images/emaily06.png" width="100%">  
-  <img alt="Emaily" src=".github-images/emaily07.png" width="100%">  
-  <img alt="Emaily" src=".github-images/emaily08.png" width="100%">  
-  <img alt="Emaily" src=".github-images/emaily09.png" width="100%">  
-  <img alt="Emaily" src=".github-images/emaily10.png" width="100%">  
-  <img alt="Emaily" src=".github-images/emaily11.png" width="100%">  
-  <img alt="Emaily" src=".github-images/emaily12.png" width="100%">  
-  <img alt="Emaily" src=".github-images/emaily13.png" width="100%">
+  <img alt="Emaily" src=".github-images/1.jpg" width="100%">
+  <img alt="Emaily" src=".github-images/2.jpg" width="100%">  
+  <img alt="Emaily" src=".github-images/3.jpg" width="100%">  
+  <img alt="Emaily" src=".github-images/4.jpg" width="100%">  
+  <img alt="Emaily" src=".github-images/5.jpg" width="100%">  
+  <img alt="Emaily" src=".github-images/6.jpg" width="100%">  
 </p>
