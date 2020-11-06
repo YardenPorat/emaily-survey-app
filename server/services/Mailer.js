@@ -11,12 +11,10 @@ class Mailer extends helper.Mail {
         super();
 
         this.sgApi = sendgrid(keys.sendGridKey);
-        this.from_email = 'emaily.yarden@gmail.com';
+        this.from_email = 'emaily.yarden@gmail.com'; // must match verified sender
         this.subject = subject;
         this.body = content;
         this.recipients = this.formatAddresses(recipients);
-        console.log(this.recipients);
-        // this.addContent(this.body); ?
     }
 
     formatAddresses(recipients) {
@@ -26,6 +24,7 @@ class Mailer extends helper.Mail {
     }
 
     async send() {
+        console.log(`sending`);
         const msg = {
             to: this.recipients,
             from: this.from_email, // Use the email address or domain you verified above
