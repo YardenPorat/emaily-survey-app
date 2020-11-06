@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="#-tech-stack">Tech Stack</a>
+  <a href="#-tech-stack">Tech Stack</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-the-project">Live working demo</a>
 </p>
 
