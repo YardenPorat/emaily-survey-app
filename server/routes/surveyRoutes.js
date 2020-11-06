@@ -19,10 +19,10 @@ module.exports = app => {
         res.send(surveys);
     });
 
-    app.get('/api/surveys/:surveyId/:choice', (req, res) => {
-        console.log('api/surveys/:surveyId/:choice');
-        res.redirect(`${redirectDomain}/thankyou`);
-    });
+    // app.get('/api/surveys/:surveyId/:choice', (req, res) => {
+    //     console.log('api/surveys/:surveyId/:choice');
+    //     res.redirect(`${redirectDomain}/thankyou`);
+    // });
 
     app.post('/api/surveys/delete', requireLogin, async (req, res) => {
         const { id } = req.body;
