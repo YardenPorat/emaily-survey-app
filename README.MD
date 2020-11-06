@@ -3,8 +3,8 @@
 </h1>
 
 <p align="center">
-  <a href="#Tech-Stack">Tech Stack</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#💻 The Project">The Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tech-stack">Tech Stack</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-the-project">Live website</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
@@ -15,9 +15,30 @@
 
 <br>
 
-## Web
+## 💻 The Project
 
-<a href="https://safe-brushlands-69741.herokuapp.com/">Emaily</a>
+Emaily is a platform for sending surveys in bulk emails, to gather client feedback.
+
+<a href="https://emailysurveyapp.herokuapp.com/">Emaily - Live App on Heroku</a>
+
+## 🚀 Tech Stack
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+| Back End | Front End |
+| ------------- | ------------- |
+| [Node.js](https://nodejs.org/en/) | [React.js](https://reactjs.org) |
+| [Express.js](https://expressjs.com/) | Content Cell |
+
+-
+-
+-
+-   [Redux](https://redux.js.org/)
+-   [Redux Form](https://redux-form.com/)
+-   [Redux Thunk](https://github-images.com/reduxjs/redux-thunk)
+-   [Stripe](https://stripe.com/)
+-   [SendGrid](https://sendgrid.com/)
+-   [Heroku](https://www.heroku.com/)
+-   [PassportJS](http://www.passportjs.org/)
 
 <p align="center">
   <img alt="Emaily" src=".github-images/emaily01.png" width="100%">
@@ -34,22 +55,3 @@
   <img alt="Emaily" src=".github-images/emaily12.png" width="100%">  
   <img alt="Emaily" src=".github-images/emaily13.png" width="100%">
 </p>
-
-## 🚀 Tech Stack
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
--   [Node.js](https://nodejs.org/en/)
--   [Express.js](https://expressjs.com/)
--   [React.js](https://reactjs.org)
--   [Redux](https://redux.js.org/)
--   [Redux Form](https://redux-form.com/)
--   [Redux Thunk](https://github-images.com/reduxjs/redux-thunk)
--   [Stripe](https://stripe.com/)
--   [SendGrid](https://sendgrid.com/)
--   [Heroku](https://www.heroku.com/)
--   [PassportJS](http://www.passportjs.org/)
-
-## 💻 The Project
-
-Emaily is a platform for sending surveys in bulk emails, to gather client feedback.
