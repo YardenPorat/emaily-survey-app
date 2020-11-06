@@ -1,6 +1,5 @@
 const express = require('express');
 const mongoose = require('mongoose');
-
 const cookieSession = require('cookie-session'); // cookie session management package
 const passport = require('passport'); //needed for cookie session
 const bodyParser = require('body-parser');

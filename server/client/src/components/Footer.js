@@ -27,25 +27,9 @@ const Footer = () => {
                             <li>
                                 <a
                                     className='grey-text text-lighten-3'
-                                    href='https://github.com/yardenporat'
+                                    href='https://github.com/yardenporat/emailysurveyapp'
                                 >
                                     GitHub Repo
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className='grey-text text-lighten-3'
-                                    href='https://materializecss.com/'
-                                >
-                                    MaterializeCSS
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className='grey-text  text-lighten-3'
-                                    href='https://sendgrid.com/'
-                                >
-                                    SendGrid
                                 </a>
                             </li>
                         </ul>
@@ -54,8 +38,7 @@ const Footer = () => {
             </div>
             <div className='footer-copyright indigo darken-3'>
                 <div className='container '>
-                    © Made by Yarden Porat for Stephen Grider's Node with React:
-                    Fullstack Web Development course
+                    Yarden Porat
                     <a className='grey-text text-lighten-4 right' href='#!'>
                         {/* //more links */}
                     </a>

@@ -1,15 +1,20 @@
 import React, { Fragment } from 'react';
+import { connect } from 'react-redux';
 import AddButton from './surveys/AddButton';
-const Landing = () => {
+const Landing = ({ auth }) => {
     return (
         <Fragment>
             <div className='center ' style={{ paddingBottom: '25px' }}>
                 <h1>Emaily!</h1>
                 Collect feedback from your users
             </div>
-            <AddButton />
+            {auth && <AddButton />}
         </Fragment>
     );
 };
 
-export default Landing;
+const mapStateToProps = ({ auth }) => ({
+    auth,
+});
+
+export default connect(mapStateToProps)(Landing);
