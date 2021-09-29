@@ -18,6 +18,7 @@
 ## 💻 The Project
 
 Emaily is a platform for sending surveys in bulk emails, to gather client feedback.
+Insert credit card number: "4242 4242 4242 4242" to get free credit and experiment with the app
 
 <h2 align="center">
   <a href="https://emailysurveyapp.herokuapp.com/">Emaily - Live App on Heroku</a>
