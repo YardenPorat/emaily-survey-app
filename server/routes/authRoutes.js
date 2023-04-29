@@ -1,13 +1,13 @@
 const passport = require('passport');
 
-module.exports = app => {
+module.exports = (app) => {
     app.get(
         '/auth/google',
         passport.authenticate(
-            'google', //internal idenfier that calls GoogleStrategy
-            {
-                scope: ['profile', 'email'], //data we want to receive from google
-            }
+            //internal identifier that calls GoogleStrategy
+            'google',
+            //data we want to receive from google
+            { scope: ['profile', 'email'] }
         )
     );
 
